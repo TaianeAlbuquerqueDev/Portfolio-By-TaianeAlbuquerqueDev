@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.minha-nav {
+  background: linear-gradient(90deg, #f8f8f8 0%, #ffffff 100%);
+  border-bottom: 2px solid #4700ed;
+}
+
+.nav-link {
+  margin-left: 20px;
+  color: #4700ed;
+}
+
+.nav-link:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo {
+  font-weight: bold;
+  color: #4700ed;
+}
+
+.logo:hover {
+  color: #000000;
+}

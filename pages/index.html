@@ -1,0 +1,108 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../components/navbar/style.css">
+    <link rel="stylesheet" href="../components/carousel/style.css">
+    <link rel="stylesheet" href="../components/cards/style.css">
+    <link rel="stylesheet" href="../pages/style.css">
+
+</head>
+
+<body>
+
+    <nav-bar></nav-bar>
+
+    <section class="container mt-5">
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <h2 class="fw-bold" style="color: #1a1a2e; border-bottom: 3px solid #4700ed; display: inline-block;">
+                    Meus Projetos
+                </h2>
+                <p class="text-muted">Explore minhas soluções desenvolvidas</p>
+            </div>
+        </div>
+
+        <carousel-portfolio></carousel-portfolio>
+
+    </section>
+
+    <main class="container py-4">
+        <section class="mt-5">
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <h2 class="fw-bold"
+                        style="color: #1a1a2e; border-bottom: 3px solid #4700ed; display: inline-block;">
+                        Minhas Skills
+                    </h2>
+                    <p class="text-muted">Ferramentas, frameworks e tecnologias</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-3">
+
+                <card-tech nome="Java"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"></card-tech>
+                <card-tech nome="SpringBoot"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"></card-tech>
+                <card-tech nome="Node.js"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"></card-tech>
+                <card-tech nome="PostgreSQL"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"></card-tech>
+                <card-tech nome="Python"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"></card-tech>
+
+                <card-tech nome="VSCode"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"></card-tech>
+                <card-tech nome="Postman"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"></card-tech>
+                <card-tech nome="Insomnia"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/insomnia/insomnia-original.svg"></card-tech>
+                <card-tech nome="Dbeaver"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dbeaver/dbeaver-original.svg"></card-tech>
+
+                <card-tech nome="API REST"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"></card-tech>
+                <card-tech nome="Firebase"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"></card-tech>
+                <card-tech nome="Swagger"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg"></card-tech>
+                <card-tech nome="HTML5"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"></card-tech>
+                <card-tech nome="CSS3"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"></card-tech>
+
+                <card-tech nome="React"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"></card-tech>
+                <card-tech nome="Vue"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"></card-tech>
+                <card-tech nome="Angular"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg"></card-tech>
+
+                <card-tech nome="JavaScript"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"></card-tech>
+                <card-tech nome="TypeScript"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"></card-tech>
+                <card-tech nome="Git"
+                    icone="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"></card-tech>
+                <card-tech nome="GitHub" icone="https://cdn.simpleicons.org/github/000000"></card-tech>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026. Portfólio Desenvolvido por: TaianeAlbuquerqueDev. Todos os direitos reservados.
+    </footer>
+
+    <script type="module" src="../components/navbar/navbar.js"></script>
+    <script type="module" src="../components/carousel/carousel-portfolio.js"></script>
+    <script type="module" src="../components/cards/card-tech.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
